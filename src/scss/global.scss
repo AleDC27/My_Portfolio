@@ -24,6 +24,7 @@ p {
 
 a {
   color: $text-primary;
+  text-decoration: none;
 
   &:hover {
     color: $primary;

@@ -1,18 +1,15 @@
 import links from "@/utils/links/nav";
 import Link from "next/link";
-import s from "./nav.module.css";
+import s from "./nav.module.scss";
 import logo from "../../../public/vertical.jpg";
 import Image from "next/image";
 
 export default function Nav() {
   return (
     <>
-      <nav className={s.nav}>
-          <ul className={s.navList}>
-            <div>
-          <Image src={logo} width={65} height={65} alt='yo' />
-            </div>
-            <div>
+      <nav className={s.navbar}>
+          <Image src={logo} width={50} height={50} alt='yo' />
+          <ul>
             {links.map((cur, idx) => (
             <Link key={idx} href={`/${cur.link}`} className={s.navLink}>
              {cur.label}
@@ -22,7 +19,6 @@ export default function Nav() {
             <option value="">ES</option>
             <option value="">EN</option>
           </select>
-            </div>
         </ul>
       </nav>
     </>

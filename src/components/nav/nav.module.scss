@@ -1,0 +1,22 @@
+@import "~/src/scss/index.scss";
+
+.navbar{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+
+ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navLink:hover {
+    color: $text-secondary;
+}
+select{
+    color: $text-secondary;
+}
+}
