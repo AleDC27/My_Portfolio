@@ -1,10 +1,11 @@
 import Image from 'next/image'
 import styles from './page.module.scss'
+import Main from '@/components/main/Main'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+      <Main>
       <h1>Hello world</h1>
-    </main>
+      </Main>
   )
 }
