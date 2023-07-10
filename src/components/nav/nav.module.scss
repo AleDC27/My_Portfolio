@@ -9,12 +9,12 @@
     background: $background-primary;
 
 ul {
-    width: 40%;
     display: flex;
-    justify-content: space-around;
+    margin-right: 2rem;
 }
 .navLink{
     color: $text-primary;
+    margin: 0 1rem;
 }
 .navLink:hover {
     color: $text-secondary;

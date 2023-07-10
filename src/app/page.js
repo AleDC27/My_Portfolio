@@ -5,10 +5,12 @@ import Footer from '@/components/footer/Footer'
 
 export default function Home() {
   return (
+    <>
       <Main>
-      <Image src='/home.png' alt='yo' width={400} height={500} />
-      <h1>Hello world</h1>
-      <Footer/>
+      <Image src='/home.png' alt='yo' width={300} height={400} />
+      <h1>I'm Alejandro, <br/>full stack developer.</h1>
       </Main>
+      <Footer/>
+    </>
   )
 }

@@ -4,7 +4,10 @@ import s from "./nav.module.scss";
 import logo from "../../../public/vertical.jpg";
 import Image from "next/image";
 
+
 export default function Nav() {
+
+
   return (
     <>
       <nav className={s.navbar}>
@@ -15,10 +18,6 @@ export default function Nav() {
              {cur.label}
             </Link>
           ))}
-            <select name="" id="" className={s.select}> 
-            <option value="">ES</option>
-            <option value="">EN</option>
-          </select>
         </ul>
       </nav>
     </>
