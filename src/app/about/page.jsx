@@ -1,6 +1,5 @@
-'use client'
+/* 'use client' */
 
-import React from "react";
 import Main from "@/components/main/Main";
 /* import Image from "next/image"; */
 /* import { about } from "@/utils/about/about"; */
