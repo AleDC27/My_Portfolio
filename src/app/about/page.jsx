@@ -4,7 +4,7 @@ import Main from "@/components/main/Main";
 /* import Image from "next/image"; */
 /* import { about } from "@/utils/about/about"; */
 /* import { Icon } from "semantic-ui-react"; */
-import s from './about.module.scss'
+/* import s from './about.module.scss' */
 
 export default function About() {
 /*   const {front,back,softSkill,ingles,linkedin,github,summary}=about */
