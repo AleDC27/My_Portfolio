@@ -6,13 +6,16 @@
     top: 0;
     display: flex;
     justify-content: space-between;
+    background: $background-primary;
 
 ul {
     width: 40%;
     display: flex;
     justify-content: space-around;
 }
-
+.navLink{
+    color: $text-primary;
+}
 .navLink:hover {
     color: $text-secondary;
 }

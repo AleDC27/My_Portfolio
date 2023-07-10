@@ -1,4 +1,4 @@
-.footer{
+/* .footer{
     background: rgba(11, 173, 173, 0.205);
     position: fixed;
     bottom:0;
@@ -6,4 +6,27 @@
     display: flex;
     justify-content: space-around;
     padding: 0.5rem 0;
+} */
+@import '~/src/scss/index.scss';
+.footer{
+    background:$background-secondary;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    div{
+        width: 45%;
+        display: flex;
+        text-align: center;
+        >a{
+            width: 50px;
+        }
+        >b{
+            display: inline;
+        }
+    }
 }
