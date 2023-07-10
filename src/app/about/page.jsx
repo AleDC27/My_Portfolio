@@ -10,7 +10,7 @@ export default function About() {
 /*   const {front,back,softSkill,ingles,linkedin,github,summary}=about */
   return (
     <>
-      <Main className={s.main} >
+      <Main>
 {/*         <section>
         <h4>Contacts</h4>
           <span>Email:walterAlejandroGordillo@gmail.com</span>
