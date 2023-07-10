@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import styles from './page.module.scss'
 import Main from '@/components/main/Main'
 import Footer from '@/components/footer/Footer'
 
