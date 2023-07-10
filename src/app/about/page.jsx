@@ -12,7 +12,7 @@ export default function About() {
   return (
     <>
       <Main className={s.main} >
-        <section>
+{/*         <section>
         <h4>Contacts</h4>
           <span>Email:walterAlejandroGordillo@gmail.com</span>
           <br/>
@@ -35,7 +35,7 @@ export default function About() {
           <span>{ingles}.</span>
           <h4>About</h4>
           <span>{summary}</span>
-        </section>
+        </section> */}
       </Main>
     </>
   );
