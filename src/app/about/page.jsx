@@ -1,17 +1,17 @@
-/* 'use client' */
+'use client'
 
 import Main from "@/components/main/Main";
-/* import Image from "next/image"; */
-/* import { about } from "@/utils/about/about"; */
-/* import { Icon } from "semantic-ui-react"; */
-/* import s from './about.module.scss' */
+import Image from "next/image";
+import { about } from "@/utils/about/about";
+import { Icon } from "semantic-ui-react";
+import s from './about.module.scss'
 
 export default function About() {
-/*   const {front,back,softSkill,ingles,linkedin,github,summary}=about */
+  const {front,back,softSkill,ingles,linkedin,github,summary}=about
   return (
     <>
       <Main>
-{/*         <section>
+        <section>
         <h4>Contacts</h4>
           <span>Email:walterAlejandroGordillo@gmail.com</span>
           <br/>
@@ -34,7 +34,7 @@ export default function About() {
           <span>{ingles}.</span>
           <h4>About</h4>
           <span>{summary}</span>
-        </section> */}
+        </section>
       </Main>
     </>
   );
