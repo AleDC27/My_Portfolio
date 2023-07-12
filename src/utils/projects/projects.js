@@ -7,7 +7,7 @@ const projects = [
       database: "PostgreSQL, Sequelize.",
     },
     image: "/food.png",
-    video:"https://www.linkedin.com/feed/update/urn:li:activity:7054282125042155521/",
+    video:"https://www.youtube.com/watch?v=2bjHn0HLeUA",
     summary:
       "Diseñar y desarrollar una App de comidas que incluía: búsquedas, filtrados combinados, ordenamientos, paginado,responsive, creación de recetas. ",
     repository: "https://github.com/AleDC27/food-P.I",
@@ -20,7 +20,7 @@ const projects = [
       back: "Yarn ,Strapi ,Java script",
       database: "PostgreSQL,Sequelize",
     },
-    image: "/food.png",
+    image: "/henry-gaming.png",
     video: `https://www.youtube.com/watch?v=0Iyth5gbZIU`,
     summary:
       "Participación en un equipo de desarrollo ágil con sprints de una semana presentándole a un Product Owner avances sobre el desarrollo de una app completa de un E-commerce con diseño y desarrollo de las siguientes features:autenticación, búsquedas, filtrados combinados, ordenamientos, envío de emails, panel de dashboard para que solo el administrador pueda ingresar donde podía publicar nuevos juegos, editarlos, bloquear usuarios, pasarela de pagos.",

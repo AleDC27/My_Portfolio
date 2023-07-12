@@ -12,8 +12,10 @@ export default function Projects() {
       <h1 className={s.title}>Projects 🚀</h1>
       <div className={s.cards} >
       {projects.map((cur,idx)=>{
-        return <Link href= {`projects/${cur.name}`} key={idx}>
-                  <article key={idx}>
+        return <Link href= {`projects/${cur.name}`}
+        className={s.card}
+        key={idx}>
+                  <article>
           <h3>{cur.name}</h3>
           <Image
           src={cur.image}

@@ -8,7 +8,7 @@ import { useEffect,useState } from "react";
 
 export default function Project({params}) {
     const {project}=params;
-    const myApp=projects.find(cur=>cur.name===project)
+    const myApp=projects.find(cur=>cur.name===project.replace("%20"," "))
     const [isClient, setIsClient] = useState(false)
     useEffect(() => {
         setIsClient(true)
@@ -29,7 +29,7 @@ export default function Project({params}) {
           <br/>
           <br/>
         <div>{isClient ? <ReactPlayer 
-              url="`https://www.youtube.com/watch?v=0Iyth5gbZIU`"
+              url={myApp.video}
               width="80%"
               height={200}
         />  : 'Prerendered'}</div>
