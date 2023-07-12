@@ -6,7 +6,7 @@ import { Icon } from "semantic-ui-react";
 import ReactPlayer from "react-player";
 import { useEffect,useState } from "react";
 
-export default function project({params}) {
+export default function Project({params}) {
     const {project}=params;
     const myApp=projects.find(cur=>cur.name===project)
     const [isClient, setIsClient] = useState(false)
