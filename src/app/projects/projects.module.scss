@@ -1,0 +1,22 @@
+.title{
+    position: fixed;
+    top: 5rem;
+    left: 43%;
+}
+.cards{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    >article{
+        margin: 5px;
+        background-color: blue;
+        
+        &:hover{
+            background-color: darkblue;
+            cursor: pointer;
+
+        }
+    }
+}
