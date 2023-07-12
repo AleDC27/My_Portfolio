@@ -15,23 +15,22 @@ export default function page({params}) {
       }, [])
   return (
     <Main>
-        <section>
+        <section className={s.section}>
         <h3>{myApp.name}</h3>
-          <br/>
           <span>repositorio: </span>
           <a href={myApp.repository}>
             <Icon name="github" size="big"/>
           </a>
-          <br/>
           <br/>
           <span>repositorio: </span>
           <a href={myApp.repository}>
             <Icon name="cloud" size="big"/>
           </a>
           <br/>
+          <br/>
         <div>{isClient ? <ReactPlayer 
               url="`https://www.youtube.com/watch?v=0Iyth5gbZIU`"
-              width="100%"
+              width="80%"
               height={200}
         />  : 'Prerendered'}</div>
         </section>
